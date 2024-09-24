@@ -12,4 +12,4 @@ jobs:
   validate:
     uses: eclipse-daanse/.github/.github/workflows/reuse_all_check_license_header.yml@main
     secrets:
-      DELEGATED_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      envGH: ${{ secrets.GITHUB_TOKEN }}
