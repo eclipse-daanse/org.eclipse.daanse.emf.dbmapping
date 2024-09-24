@@ -16,4 +16,4 @@ jobs:
       packages: read
     uses: eclipse-daanse/.github/.github/workflows/reuse_all_check_editor_config_format.yml@main
     secrets:
-      DELEGATED_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      envGH: ${{ secrets.GITHUB_TOKEN }}
